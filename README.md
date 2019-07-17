@@ -156,7 +156,7 @@ To specify your own custom output format, use the special `%`-notation:
 So, these two calls are the same:
 
 ```
-    $ curl wttr.in/London?format=3
+    $ curl wttr.in/London?format=3\&m
     London: ⛅️ +7⁰C
     $ curl wttr.in/London?format="%l:+%c+%t"
     London: ⛅️ +7⁰C
